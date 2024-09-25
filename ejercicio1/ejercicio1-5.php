@@ -18,10 +18,22 @@
             </tr> 
         </thead>
         <tbody>
-            
+            <tr>
+                <?php 
+                    for ($i=128000; $i<=128702; $i++){
+                ?>
+                <td><?= $i ?></td>
+                <td><?= "&#$i" ?></td>
+                <?php
+                    if(($i+1)%10==0 && $i!=0 ){ 
+                ?>
+                    </tr>
+                    <tr>
+                <?php } 
+                    }
+                ?>
+            </tr>
         </tbody>
     </table>
-
-    
 </body>
 </html>

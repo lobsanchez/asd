@@ -17,7 +17,9 @@
                 <th>Código</th>
                 <th>Valor</th>
                 <?php } ?>
-            </tr>
+        </thead>    
+        <tbody>
+        </tr>
             <tr>
                 <?php 
                     for($i=0; $i<1000; $i++){
@@ -27,12 +29,11 @@
                     <?php if(($i+1)%10==0 && $i!=0){ ?>
                         </tr>
                         <tr>
-                    <?php } ?>
-                    <?php
+                    <?php } 
                     }
                     ?>
             </tr>
-        </thead>
+        </tbody>
     </table>
 </body>
 </html>
