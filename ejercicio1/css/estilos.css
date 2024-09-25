@@ -1,7 +1,19 @@
-.imagen_centrada{
-    height: 300px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-.fondo{
-  
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin: 10vh 5vv;
 }
+
+img {
+    border:2px solid black;
+    max-width: 90%;
+    height: auto;
+}
+
