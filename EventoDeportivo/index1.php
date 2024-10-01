@@ -10,12 +10,12 @@ select multiple   -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evento Deportivo</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body> 
     <div class="container_form">
     <h1>Formulario de Evento Deportivo</h1>
-    <form action="procesar.php" method="post">    
+    <form action="procesar.php" method="post" enctype="multipart/form-data">    
         <fieldset>
             <label for="nombre">Nombre del Evento:</label> <br/>
             <input type="text" name="nombre"><br/>
