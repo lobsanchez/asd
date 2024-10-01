@@ -21,8 +21,6 @@ h1 {
     padding-bottom: 30px;
 }
 
-
-
 input,
 label,
 select,
@@ -34,8 +32,6 @@ textarea {
   margin: 10px 0;
 }
 
-
-
 form {
     color: #333333;  
     padding: 10px;
@@ -45,8 +41,6 @@ form {
     width: 330px;  
     border-radius: 5px;
 }
-
-
 
 fieldset { 
     border: 0;
