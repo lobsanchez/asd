@@ -36,12 +36,12 @@ function validarCampos() {}
     }
 
 // Función para manejar la subida de imágenes
-function manejarImagen() {}
+function manejarImagen(){ 
     if (!isset($_FILES['nombre_fichero']) || $_FILES['nombre_fichero']['error'] != UPLOAD_ERR_OK)
         {
-            $errores[] = "Debe seleccionar una iumagen."
+            $errores[] = "Debe seleccionar una imagen."
         }
-        
+    }
 
 
 // Función para calcular el precio final
