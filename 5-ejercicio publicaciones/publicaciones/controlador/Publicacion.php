@@ -1,6 +1,6 @@
 <?php
 class Publicacion {
-    protected $precio_base;
+    protected float $precio_base;
     protected $titulo;
     protected $autor;
     protected $anio_publicacion;
