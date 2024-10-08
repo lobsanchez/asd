@@ -7,6 +7,19 @@
     <link >
 </head>
 <body>
-    
+    <?php
+        function manipularNumeros($a, &$b, $c=5){
+            $a=$a+$c;
+            $b*=2;
+            echo $a."<br>";
+            echo $b;
+
+        }
+        $a=1;
+        $b=2;
+        $c=10;
+        manipularNumeros($a,$b,$c);
+
+    ?>
 </body>
 </html>

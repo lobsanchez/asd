@@ -72,7 +72,7 @@ el formulario se recarga con un include -->
         //<script>window.location.href= 'https: //www.elmundo.es/';</script>
 
         // Sanitizar los datos
-        $nombre_evento = htmlspecialchars($_POST['nombre_evento'], ENT_QUOTES, 'UTF-8');
+        $nombre_evento = htmlspecialchars($_POST['nombre'], ENT_QUOTES, 'UTF-8');
         $ubicacion = htmlspecialchars($_POST['ubicacion'], ENT_QUOTES, 'UTF-8');
 
         $fecha = htmlspecialchars($_POST['fecha'], ENT_QUOTES, 'UTF-8');
